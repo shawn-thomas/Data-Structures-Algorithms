@@ -5,7 +5,6 @@ describe('topKFrequent', () => {
     const nums = [1, 1, 1, 2, 2, 3];
     const k = 2;
     const result = topKFrequent(nums, k);
-    console.log(result);
     expect(result).toEqual(expect.arrayContaining(["1", "2"]));
     expect(result.length).toBe(2);
   });
